@@ -68,14 +68,12 @@ export default function TestimonialsPage() {
             {/* Featured Testimonial Carousel */}
             <div className="bg-gray-50 rounded-lg p-8 md:p-12 mb-12">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                {/* Logo */}
                 <div className="flex-shrink-0">
                   <div className="w-24 h-24 bg-white rounded-lg border-2 border-gray-200 flex items-center justify-center text-4xl shadow-md">
                     {testimonials[currentIndex].logo}
                   </div>
                 </div>
 
-                {/* Content */}
                 <div className="flex-1">
                   <p className="text-lg text-gray-700 mb-4 italic">
                     "{testimonials[currentIndex].quote}"
@@ -85,7 +83,6 @@ export default function TestimonialsPage() {
                 </div>
               </div>
 
-              {/* Navigation */}
               <div className="flex justify-center gap-4 mt-8">
                 <button
                   onClick={prev}
@@ -105,7 +102,6 @@ export default function TestimonialsPage() {
               </div>
             </div>
 
-            {/* All Testimonials Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {testimonials.map((testimonial, index) => (
                 <div
