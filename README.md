@@ -13,7 +13,6 @@ This is my submission for the Full Stack Developer Intern assignment. The task w
 - TypeScript
 - Tailwind CSS
 - lucide-react for icons
-- Zod for form validation
 - Deployed on Vercel
 
 ---
@@ -75,6 +74,5 @@ Being upfront about this since it was part of the assignment.
 - Add some scroll animations, the real site has more motion/polish than what I built in the time I had
 - Go through accessibility more properly (keyboard nav, ARIA labels etc), I only did the basics
 - Add proper SEO meta tags per section
-- Write some tests for the form validation
 
 This was a good exercise in reading a live site and rebuilding its structure/logic rather than just copying markup, and also in catching my own mistakes (like the routing thing) before they became a bigger problem.
