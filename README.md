@@ -1,9 +1,8 @@
-# Accredian Enterprise - Landing Page Clone
+# Accredian Clone
 
-This is my submission for the Full Stack Developer Intern assignment. The task was to recreate the Accredian Enterprise landing page (https://enterprise.accredian.com/) using Next.js, so I rebuilt it section by section instead of copying the actual code/design 1:1.
+This is my submission for the Full Stack Developer Intern assignment. The task was to recreate the Accredian Enterprise landing page (https://enterprise.accredian.com/) using Next.js, so I rebuilt it section by section instead of copying the actual code/design
 
-**Live link:** [add your Vercel link here]
-**GitHub:** [add your repo link here]
+**Live link:** https://accredian-clone-mu.vercel.app/
 
 ---
 
@@ -41,8 +40,8 @@ For the content itself I didn't copy the actual text from Accredian's site, I re
 Some specific stuff:
 - **Navbar** - has an active-link highlight that updates based on which section is in view while scrolling (used `IntersectionObserver` for this, not just click-based highlighting, since that felt more accurate to how these sites usually behave)
 - **CAT Framework section** - the wavy line connecting the three steps (Concept/Application/Tools) is a custom SVG path, not something doable with plain CSS
-- **Images/avatars** - didn't pull actual photos or the IIT/IIM logos from their site since those aren't mine to use. Used DiceBear for generated avatars and stock images from Unsplash instead
-- **Lead capture form** (bonus) - submits to a Next.js API route at `/api/leads`, validated with Zod
+- **Images/avatars** - didn't pull actual photos or the IIT/IIM logos from their site since those aren't mine to use. 
+- **Lead capture form** (bonus) - submits to a Next.js API route at `/api/leads`
 
 ---
 
@@ -55,7 +54,6 @@ Being upfront about this since it was part of the assignment.
 - Writing the Tailwind responsive classes for each section (breakpoints, grid layouts) - this saved a lot of time honestly, doing 8 sections responsive by hand would've taken way longer
 - Helping me figure out the SVG path/Bezier curve math for the CAT framework wavy connector, that one I would not have figured out on my own quickly
 - Catching the routing mistake I made above (sections as routes instead of components) and explaining why it breaks the navbar scroll behavior
-- Reviewing my API route code for the lead form and pointing out validation gaps
 
 **GitHub Copilot** - mostly just autocomplete while I was writing component code, typing out the `.map()` renders for things like testimonials/features arrays, and TypeScript interfaces. Standard day to day coding speed-up, not really "building" anything on its own.
 
